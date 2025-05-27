@@ -4,17 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendendo JS</title>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 100px;
+
+        }
+    </style>
 </head>
 <body>
     
     <form>
-        <label for="dia">dia</label>
-        <select id="dia"></select>
-        <label for="mes">mes</label>
-        <select id="mes"></select>
-        <label for="ano">ano</label>
-        <select id="ano">
+        <label for="CEP">CEP</label>
+        <input type="text" id="CEP">
+        <label for="rua">rua</label>
+        <input type="text" id="rua">
+        <label for="bairro">bairro</label>
+        <input type="text" id="bairro">
+        <label for="cidade">cidade</label>
+        <input type="text" id="cidade">
+        <label for="estado">estado</label>
+        <input type="text" id="estado">
     </form>
-    </select><script src="selects_forms.js"></script>
+    <script src="auto_input.js"></script>
 </body>
 </html>
